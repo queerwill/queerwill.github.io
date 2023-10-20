@@ -1000,13 +1000,9 @@ var ASM_CONSTS = {
  77822: () => { return -new Date().getTimezoneOffset(); },  
  77866: () => { var len = lengthBytesUTF8(tx) + 1; var s = _malloc(len); stringToUTF8(tx, s, len); return s; },  
  77963: () => { tx = ""; },  
- 77976: () => { console.log( "ACTIVE 1" ) },  
- 78006: ($0, $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) => { console.log("ONE "+$0+" TWO "+$1+" THREE "+$2+" FOUR "+$3+"  FIVE "+$4+"  SIX "+$5+"  3S "+$6+"  4S "+$7+"  FULL "+$8+"  SHORT "+$9+"  LONG "+$10+"  CH "+$11+"  YO "+$12 +"  BONUS: "+$13+" "+$14); },  
- 78207: ($0, $1) => { console.log( "SCORE: " + $0 + " ROUNDS LEFT: " + $1 ) },  
- 78265: ($0, $1) => { console.log( "MAX_BONUS: " + $0 + " ROUNDS LEFT: " + $1 ) },  
- 78327: ($0, $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) => { console.log("ONE "+$0+" TWO "+$1+" THREE "+$2+" FOUR "+$3+"  FIVE "+$4+"  SIX "+$5+"  3S "+$6+"  4S "+$7+"  FULL "+$8+"  SHORT "+$9+"  LONG "+$10+"  CH "+$11+"  YO "+$12 +"  BONUS: "+$13+" "+$14); },  
- 78528: ($0, $1) => { console.log( "SCORE: " + $0 + " ROUNDS LEFT: " + $1 ) },  
- 78586: ($0) => { console.log( "UPPER: " + $0 ) }
+ 77976: () => { console.log( "LET'S PLAY YOLO!" ) },  
+ 78014: ($0, $1) => { console.log( "SCORE: " + $0 + " ROUNDS LEFT: " + $1 ) },  
+ 78072: ($0, $1, $2) => { console.log( "UPPER: " + $0 + " BONUS: " + $1 + " BONUS ROLLS: " + $2 ) }
 };
 
 
